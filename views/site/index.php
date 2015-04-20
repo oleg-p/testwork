@@ -15,7 +15,7 @@ $this->title = Yii::$app->name;
                 <p><a class="btn btn-default" href="<?= Yii::$app->urlManager->createUrl(['/message/create'])?>">Отправить сообщение &raquo;</a></p>
             </div>
             <div class="col-sm-6">
-                <p><a class="btn btn-default" href="<?= Yii::$app->urlManager->createUrl(['/mesage/index'])?>">Просмотреть сообщения &raquo;</a></p>
+                <p><a class="btn btn-default" href="<?= Yii::$app->urlManager->createUrl(['/message/index'])?>">Просмотреть сообщения &raquo;</a></p>
             </div>
         </div>
 
