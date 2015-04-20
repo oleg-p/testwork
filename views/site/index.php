@@ -12,10 +12,10 @@ $this->title = Yii::$app->name;
 
         <div class="row">
             <div class="col-sm-6">
-                <p><a class="btn btn-default" href="<?= Yii::$app->urlManager->createUrl(['/site/send-message'])?>">Отправить сообщение &raquo;</a></p>
+                <p><a class="btn btn-default" href="<?= Yii::$app->urlManager->createUrl(['/message/create'])?>">Отправить сообщение &raquo;</a></p>
             </div>
             <div class="col-sm-6">
-                <p><a class="btn btn-default" href="<?= Yii::$app->urlManager->createUrl(['/site/messages'])?>">Просмотреть сообщения &raquo;</a></p>
+                <p><a class="btn btn-default" href="<?= Yii::$app->urlManager->createUrl(['/mesage/index'])?>">Просмотреть сообщения &raquo;</a></p>
             </div>
         </div>
 

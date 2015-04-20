@@ -12,7 +12,7 @@ use yii\filters\VerbFilter;
 /**
  * MessagelController implements the CRUD actions for Message model.
  */
-class MessagelController extends Controller
+class MessageController extends Controller
 {
     public function behaviors()
     {

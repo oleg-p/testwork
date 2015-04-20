@@ -35,8 +35,8 @@ AppAsset::register($this);
             echo Nav::widget([
                 'options' => ['class' => 'navbar-nav navbar-right'],
                 'items' => [
-                    ['label' => 'Отправить сообщение', 'url' => ['/site/send-message']],
-                    ['label' => 'Сообщения', 'url' => ['/site/messages']],
+                    ['label' => 'Отправить сообщение', 'url' => ['/message/create']],
+                    ['label' => 'Сообщения', 'url' => ['/message/index']],
                 ],
             ]);
             NavBar::end();
